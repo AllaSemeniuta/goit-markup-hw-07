@@ -1,8 +1,4 @@
 .examples {
-  padding-top: 0;
-}
-
-.examples-list {
   @include FlexCenter(flex, null, null);
   margin-right: calc(-1 * var(--typical-gap));
 

@@ -1,9 +1,4 @@
 .clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.icons-list {
   @include FlexCenter(flex, null, null);
 
   &__item {
@@ -31,12 +26,12 @@
   }
 }
 
-.icons-list__icon {
+.clients__icon {
   fill: #afb1b8;
   transition: fill 250ms var(--cubic-bezier);
 
-  .icons-list__link:hover &,
-  .icons-list__link:focus & {
+  .clients__link:hover &,
+  .clients__link:focus & {
     fill: var(--accent-text-color);
   }
 }

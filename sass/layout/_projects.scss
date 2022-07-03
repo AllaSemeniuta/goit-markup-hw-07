@@ -47,9 +47,9 @@
     transition: transform 250ms var(--cubic-bezier);
     top: 0;
     left: 0;
+    @include FlexCenter;
     padding-left: 24px;
     padding-right: 24px;
-    @include FlexCenter;
     width: 100%;
     height: 100%;
     font-size: 18px;
@@ -57,7 +57,7 @@
     color: #ffffff;
   }
 
-  &__info {
+  &__content {
     padding: 20px 24px;
     background: #ffffff;
     border-bottom: 1px solid #eeeeee;
@@ -69,8 +69,8 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    color: var(--secondary-text-color);
     letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
   }
 
   &__text {

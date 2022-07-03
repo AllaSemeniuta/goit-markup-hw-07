@@ -1,32 +1,4 @@
-@import './utils/vars';
-@import './utils/mixins';
-
-@import './base/reset';
-@import './base/common';
-@import './base/no-scroll';
-@import './base/is-hidden';
-@import './base/visually-hidden';
-
-@import './components/logo';
-@import './components/section';
-@import './components/container';
-@import './components/title';
-@import './components/button';
-@import './components/backdrop';
-@import './components/modal';
-@import './components/close-button';
-@import './components/form-order';
-@import './components/subscrible-field';
-@import './components/nav-list';
-@import './components/soc-list';
-@import './components/contact-list';
-
-@import './layout/header';
-@import './layout/hero';
-@import './layout/benefits';
-@import './layout/work-examples';
-@import './layout/team';
-@import './layout/clients';
-@import './layout/footer';
-@import './layout/portfolio';
-@import './layout/projects';
+@import './utils/module';
+@import './base/module';
+@import './components/module';
+@import './layout/module';
